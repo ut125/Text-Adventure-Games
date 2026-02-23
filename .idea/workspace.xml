@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="726cfb77-e0f4-464c-92e9-7e3d116a0cbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vAIuR6CD7xx9x4lduTpsL72eh2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GameClient.executor": "Run",
+    "JUnit.ExampleSTAGTests.executor": "Run",
+    "JUnit.ExampleSTAGTests.testActionRequiresItemAndCorrectLocation.executor": "Run",
+    "JUnit.ExampleSTAGTests.testAmbiguousCommands.executor": "Run",
+    "JUnit.ExampleSTAGTests.testCompoundCommands.executor": "Run",
+    "JUnit.ExampleSTAGTests.testCustomAction_OpenTrapdoor.executor": "Run",
+    "JUnit.ExampleSTAGTests.testGameActionsWithMapLogic.executor": "Run",
+    "JUnit.ExampleSTAGTests.testHealth.executor": "Run",
+    "JUnit.ExampleSTAGTests.testLook.executor": "Run",
+    "JUnit.ExampleSTAGTests.testMultiplePlayers.executor": "Run",
+    "JUnit.qtyTests.executor": "Run",
+    "JUnit.qtyTests.testGetAndDrop.executor": "Run",
+    "JUnit.qtyTests.testHealth.executor": "Run",
+    "JUnit.qtyTests.testKey.executor": "Run",
+    "JUnit.qtyTests.testSpecialCharacterUsername.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "Merging master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/blues/Documents/BRISTOL/JAVA/homework/cw-stag",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "proofread",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ExampleSTAGTests">
+    <configuration name="ExampleSTAGTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cw-stag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uob" />
+      <option name="MAIN_CLASS_NAME" value="edu.uob.ExampleSTAGTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleSTAGTests.testGameActionsWithMapLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cw-stag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uob" />
+      <option name="MAIN_CLASS_NAME" value="edu.uob.ExampleSTAGTests" />
+      <option name="METHOD_NAME" value="testGameActionsWithMapLogic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleSTAGTests.testMultiplePlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cw-stag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uob" />
+      <option name="MAIN_CLASS_NAME" value="edu.uob.ExampleSTAGTests" />
+      <option name="METHOD_NAME" value="testMultiplePlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qtyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cw-stag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uob" />
+      <option name="MAIN_CLASS_NAME" value="edu.uob.qtyTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qtyTests.testHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cw-stag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uob" />
+      <option name="MAIN_CLASS_NAME" value="edu.uob.qtyTests" />
+      <option name="METHOD_NAME" value="testHealth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExampleSTAGTests" />
+        <item itemvalue="JUnit.qtyTests" />
+        <item itemvalue="JUnit.ExampleSTAGTests.testMultiplePlayers" />
+        <item itemvalue="JUnit.qtyTests.testHealth" />
+        <item itemvalue="JUnit.ExampleSTAGTests.testGameActionsWithMapLogic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.33" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.33" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726cfb77-e0f4-464c-92e9-7e3d116a0cbf" name="Changes" comment="" />
+      <created>1743581673970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743581673970</updated>
+      <workItem from="1743581677750" duration="3736000" />
+      <workItem from="1743586372059" duration="26866000" />
+      <workItem from="1743670372341" duration="408000" />
+      <workItem from="1743670835870" duration="28686000" />
+      <workItem from="1743704987755" duration="205000" />
+      <workItem from="1771848858690" duration="1212000" />
+      <workItem from="1771850185992" duration="308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
