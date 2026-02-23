@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <triggers>
+            <keyphrase>open</keyphrase>
+            <keyphrase>unlock</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>cavedoor</entity>
+            <entity>key</entity>
+        </subjects>
+        <consumed>
+            <entity>key</entity>
+        </consumed>
+        <produced>
+            <entity>secretsChamber</entity>
+        </produced>
+        <narration>You unlock the caveDoor and see steps leading down into a SecretsChamber</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>hit</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>goblin</entity>
+        </subjects>
+        <consumed>
+            <entity>health</entity>
+        </consumed>
+        <produced>
+        </produced>
+        <narration>You can't fight with goblin by hand!</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>magicattack</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>goblin</entity>
+            <entity>bug</entity>
+        </subjects>
+        <consumed>
+            <entity>goblin</entity>
+        </consumed>
+        <produced>
+            <entity>key</entity>
+        </produced>
+        <narration>You transfer goblin to somewhere else by bug!</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>open</keyphrase>
+            <keyphrase>unlock</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>door</entity>
+            <entity>key2</entity>
+        </subjects>
+        <consumed>
+        </consumed>
+        <produced>
+            <entity>house</entity>
+        </produced>
+        <narration>You unlock the door of a house, have a look!</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>close</keyphrase>
+            <keyphrase>lock</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>door</entity>
+            <entity>key2</entity>
+        </subjects>
+        <consumed>
+            <entity>house</entity>
+        </consumed>
+        <produced>
+        </produced>
+        <narration>You lock the door of a house</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>dig</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>forest</entity>
+        </subjects>
+        <consumed>
+        </consumed>
+        <produced>
+            <entity>chest</entity>
+        </produced>
+        <narration>You find a chest Buried at forest</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>open</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>chest</entity>
+        </subjects>
+        <consumed>
+            <entity>chest</entity>
+        </consumed>
+        <produced>
+            <entity>key2</entity>
+            <entity>bones</entity>
+        </produced>
+        <narration>You open the chest and find something in it</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>domagic</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>bones</entity>
+            <entity>bug</entity>
+            <entity>house</entity>
+        </subjects>
+        <consumed>
+        </consumed>
+        <produced>
+            <entity>house</entity>
+        </produced>
+        <narration>This is just a test, ok?</narration>
+    </action>
+
+    <action>
+        <triggers>
+            <keyphrase>throw</keyphrase>
+        </triggers>
+        <subjects>
+            <entity>shit</entity>
+            <entity>elf</entity>
+        </subjects>
+        <consumed>
+            <entity>health</entity>
+        </consumed>
+        <produced>
+            <entity>health</entity>
+        </produced>
+        <narration>This is just another test, ok?</narration>
+    </action>
+
+</actions>

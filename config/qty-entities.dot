@@ -1,0 +1,76 @@
+digraph layout {
+    /* ortho splines just makes the arrows into straight lines (rather than curvy ones !) */
+    splines = ortho;
+    node [shape = "rect"];
+
+    subgraph locations {
+        subgraph cluster001 {
+            node [shape = "none"];
+            forest [description = "Just a forest"];
+            subgraph artefacts {
+                node [shape = "diamond"];
+                bug [description = "a magic bug"];
+                shit [description = "WTF???"];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                door [description = "Door of the house."]
+            }
+        }
+
+        subgraph cluster002 {
+            node [shape = "none"];
+            cave [description = "A dirty cave"];
+            subgraph furniture {
+                node [shape = "hexagon"];
+                rock [description = "A big rock"];
+                cavedoor [description = "A door looks suspicious"];
+            }
+
+            subgraph characters {
+                node [shape = "hexagon"];
+                goblin [description = "A stupid goblin"];
+            }
+
+        }
+
+        subgraph cluster003 {
+            node [shape = "none"];
+            secretsChamber [description = "A Chamber of Secrets"]
+            subgraph characters {
+                node [shape = "ellipse"];
+                elf [description = "Angry Elf"];
+            }
+        }
+
+        subgraph cluster004 {
+            node [shape = "none"];
+            house [description = "A house"]
+        }
+
+        subgraph cluster999 {
+            node [shape = "none"];
+            storeroom [description = "Storage for any entities not placed in the game"]
+            subgraph characters {
+                node [shape = "ellipse"];
+            }
+            subgraph artefacts {
+                node [shape = "diamond"];
+                key [description = "A key which was hidden."];
+                key2 [description = "A key in chest."];
+                bones [description = "Bones in chest."];
+            }
+            subgraph furniture {
+                node [shape = "hexagon"];
+                chest [description = "A chest which could be opened."]
+            }
+        }
+    }
+
+    subgraph paths {
+        forest -> cave;
+        secretsChamber -> house;
+        house -> forest;
+    }
+
+}
